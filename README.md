@@ -1,5 +1,8 @@
 # Demo : https://patro-social-media.netlify.app/
 
+#API : comments and user-nick: https://jsonplaceholder.typicode.com/
+profile-picture: https://randomuser.me/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

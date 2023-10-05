@@ -1,8 +1,5 @@
 # Demo : https://patro-social-media.netlify.app/
 
-# API : comments and user-nick: https://jsonplaceholder.typicode.com/
-# profile-picture: https://randomuser.me/
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### API 
+comments and user-nick: https://jsonplaceholder.typicode.com/
+profile-picture: https://randomuser.me/

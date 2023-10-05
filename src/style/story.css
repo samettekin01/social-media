@@ -1,0 +1,74 @@
+.story-compt{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: var(--bgblack);
+    height: 100px;
+    overflow: hidden;
+}
+
+.s-leftbtn{
+  position: absolute;
+  color: white;
+  left: 1px;
+  font-size: 1.7rem;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.s-rightbtn{
+  position: absolute;
+  color: white;
+  right: 1px;
+  font-size: 1.7rem;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.compt {
+    display: flex;
+    height: 100px;
+    min-width: 480px;
+    max-width: 480px;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(0px);
+    transition: transform 1s;
+}
+
+.usercomp {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background: var(--linearg);
+    clip-path: var(--acircle);
+}
+
+.upic {
+    width: 70px;
+    height: 70px;
+    clip-path: var(--bcircle);
+}
+
+.uname {
+    display: flex;
+    justify-content: center;
+}
+
+.username {
+    width: 60px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    color: var(--tcolor);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

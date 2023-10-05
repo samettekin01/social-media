@@ -1,0 +1,19 @@
+.bottommenu-comp{
+    position: fixed;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 2px 5px 2px;
+    justify-content: space-around;
+    background-color: var(--bgblack);
+    color: white;
+    border-top: var(--borderline);
+    display: none;
+    min-width: 480px;
+}
+
+@media (max-width: 680px){
+  .bottommenu-comp{
+    display:flex;
+  }
+}

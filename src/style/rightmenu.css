@@ -1,0 +1,90 @@
+.rightmenu-comp{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bgblack);
+    width: 300px;
+}
+
+.user-prof-comp{
+    margin: 10px 0 10px 0;
+}
+
+.rm-prnn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.rm-recd-user{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.user-pr-comp{
+    display: flex;
+    align-items: center;
+}
+
+.user-icon{
+    color: var(--tcolor);
+    width: 50px;
+}
+
+.user-pr-name{
+    color: var(--tcolor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rm-yrp{
+    color: gray;
+    font-size: .7rem;
+}
+
+.user-pr-chng{
+    color: var(--tcolor);
+    margin-left: auto;
+}
+
+.rm-rd{
+    color: var(--tcolor);
+}
+.rm-users-comp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rm-user-pic{
+    width: 52px; height: 52px;
+    clip-path: var(--acircle);
+    margin: 5px;
+}
+
+.rm-user-fl-comp{
+    margin-left: auto;
+}
+
+.rm-u-cm{
+    display: flex;
+    flex-direction: column;
+}
+
+.rm-user-name{
+    color: var(--tcolor);
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rm-ruser{
+    color: gray;
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+.rm-user-flw{
+    text-decoration: none;
+    color: var(--tcolor);
+    font-weight: bold;
+}

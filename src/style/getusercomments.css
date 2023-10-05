@@ -1,0 +1,49 @@
+.gucomments-comp{
+    width: 500px;
+}
+
+.guc-btn{
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.guc-gcomp{
+    display: none;
+}
+
+.gusdata{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.uscom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: .9rem;
+}
+
+.guc-nick{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.guc-i{
+    padding: 5px 0 10px 0;
+}
+
+.guc-a{
+    margin-right: 10px;
+    color: gray;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.guc-li{
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 1rem;
+}

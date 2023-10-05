@@ -1,0 +1,170 @@
+.contentcomp{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main-contcomp{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.a-cont-comp{
+    display: flex;
+    justify-content: center;
+}
+
+.f-contcomp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--bgblack);
+    padding-bottom: 5px;
+}
+
+.user-comp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.ccbackimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background: var(--linearg);
+    clip-path: var(--acircle);
+    margin: 3px;
+}
+
+.ccpic{
+    width: 40px; height: 40px;
+    clip-path: var(--bcircle);
+}
+
+.cusercomp{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    color: var(--tcolor);
+}
+
+.spanuser{
+    display: flex;
+    align-items: center;
+}
+
+.cdot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    clip-path: circle(15%);
+    padding: 2px;
+}
+
+.ucdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(77,77,77, 0.5);
+    border-radius: 4px;
+}
+.cont-comp-c{
+    width: 100%; height: 100%;
+}
+
+.inter-comp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.inter-comp  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.inter-icon{
+    margin-right: 15px;
+    font-size: 23px;
+    color: var(--tcolor);
+}
+
+.likes-comp{
+    margin-top: 7px;
+    display: flex;
+}
+
+.li-us{
+    font-size: 16px;
+    color: var(--tcolor);
+}
+
+.explanation-comp{
+    display: flex;
+    margin-top: 7px;
+}
+
+.ex-us{
+    font-size: 16px;
+    color: var(--tcolor);
+}
+
+.comment-comp{
+    display: flex;
+    margin-top: 7px;
+}
+
+.com-us{
+    font-size: 16px;
+    color: var(--tcolor);
+}
+
+.message-comp{
+    display: flex;
+    margin-top: 7px;
+}
+
+.mss-text{
+    width: 93%;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.mss-text::placeholder{
+    color: gray;
+}
+.mss-text:focus{
+    color: white;
+}
+
+.hr-comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-hr{
+    display: flex;
+    width: 100%; height: 1px;
+    margin: 20px 0 20px 0;
+    background-color:  rgba(77,77,77, 0.5);
+}

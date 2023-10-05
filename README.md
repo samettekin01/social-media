@@ -1,7 +1,7 @@
 # Demo : https://patro-social-media.netlify.app/
 
 # API : comments and user-nick: https://jsonplaceholder.typicode.com/
-profile-picture: https://randomuser.me/
+# profile-picture: https://randomuser.me/
 
 # Getting Started with Create React App
 

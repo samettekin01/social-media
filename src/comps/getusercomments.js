@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { UserCommentContext } from "./comments";
-import { BsHeart } from "react-icons/bs";
+import LikeButton from "./like";
 
 import "../style/getusercomments.css"
 
@@ -8,7 +8,6 @@ function GetUserComments() {
     const data = useContext(UserCommentContext)
     const [gucshow, setGucShow] = useState({ display: 'none' })
     const [status, setStatus] = useState(true)
-    console.log(data)
 
     function settingGuc() {
         if (status) {
@@ -31,7 +30,7 @@ function GetUserComments() {
                                 <a href="#gn" className="guc-nick"><span>{`${uscom.name.slice(0, 6)} `} </span></a>
                                 <span className="guc-com">{`${uscom.body}`}</span>
                             </div>
-                            <div className="guc-li"><BsHeart /></div>
+                            <div className="guc-li"><LikeButton /></div>
                         </div>
                         <div className="guc-i">
                             <a href="#l" className="guc-a">like</a><a href="#a" className="guc-a">answer</a>

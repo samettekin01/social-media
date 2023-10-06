@@ -28,6 +28,7 @@
 .user-icon{
     color: var(--tcolor);
     width: 50px;
+    cursor: pointer;
 }
 
 .user-pr-name{
@@ -59,6 +60,7 @@
     width: 52px; height: 52px;
     clip-path: var(--acircle);
     margin: 5px;
+    cursor: pointer;
 }
 
 .rm-user-fl-comp{

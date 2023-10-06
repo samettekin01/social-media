@@ -44,6 +44,7 @@
 .ccpic{
     width: 40px; height: 40px;
     clip-path: var(--bcircle);
+    cursor: pointer;
 }
 
 .cusercomp{
@@ -56,6 +57,8 @@
 .spanuser{
     display: flex;
     align-items: center;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .cdot{

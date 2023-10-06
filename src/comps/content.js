@@ -10,7 +10,6 @@ import LikeButton from "./like";
 
 function Content() {
     const data = useContext(CreateC)
-    console.log(data)
     return (
         <div className="main-contcomp">
             {data.length > 0 ? data.map((d, i) =>

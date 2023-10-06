@@ -18,12 +18,12 @@ body {
   --bggray: rgb(36, 36, 36);
   --hbgcolor: #202020;
   --tcolor: #fff;
-  --atcolor: rgb(0, 0, 206); 
+  --atcolor: rgb(0, 0, 206);
   --border-r: 8px;
   --acircle: circle(50%);
   --bcircle: circle(46%);
-  --linearg: linear-gradient(75deg,yellow 0%, orange 20%, deeppink 100%);
-  --borderline: 1px solid rgba(77,77,77, 0.5);
+  --linearg: linear-gradient(75deg, yellow 0%, orange 20%, deeppink 100%);
+  --borderline: 1px solid rgba(77, 77, 77, 0.5);
 }
 
 #root {
@@ -38,11 +38,17 @@ body {
   user-select: none;
 }
 
+.main-icon {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Lobster Regular';
+  display: none;
+}
 .left {
   height: 100%
 }
 
-.othercomp{
+.othercomp {
   display: flex;
   flex-direction: row;
   margin-left: auto;
@@ -55,11 +61,11 @@ body {
   height: 100px;
 }
 
-.center{
-  margin-top: 50px;
+.center {
+  margin-top: 30px;
 }
 
-.right{
+.right {
   display: flex;
   justify-content: center;
   width: 400px;
@@ -69,13 +75,17 @@ body {
 }
 
 @media (max-width: 1080px) {
-  .right{
-      display: none;
+  .right {
+    display: none;
   }
 }
-@media (max-width: 680px){
-  .left{
+
+@media (max-width: 680px) {
+  .left {
     display: none;
+  }
+  .main-icon{
+    display: inline-block;
   }
 }
 

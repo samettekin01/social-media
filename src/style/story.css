@@ -27,28 +27,35 @@
 
 .compt {
     display: flex;
-    height: 100px;
-    min-width: 480px;
-    max-width: 480px;
+    height: 100%;
     flex-direction: row;
     align-items: center;
     transform: translateX(0px);
     transition: transform 1s;
+    width: 480px;
 }
 
 .usercomp {
-    display: inline-block;
+    display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     align-items: center;
+    width: 80px;
+    transition: transform .3s;
+    cursor: pointer;
+}
+.usercomp:hover{
+    transform: scale(1.1);
 }
 
 .imgback {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
     background: var(--linearg);
     clip-path: var(--acircle);
+    width: 71px;
+    margin: 0 5px 0 5px ;
 }
 
 .upic {
@@ -65,8 +72,6 @@
 .username {
     width: 60px;
     text-align: center;
-    position: relative;
-    bottom: 5px;
     color: var(--tcolor);
     overflow: hidden;
     text-overflow: ellipsis;

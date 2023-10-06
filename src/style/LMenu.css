@@ -3,6 +3,11 @@
   src: url("./fonts/Lobster-Regular.ttf") format("truetype");
 }
 
+.nav {
+  text-decoration: none;
+  width: 100%;
+}
+
 .comp {
   position: fixed;
   width: 250px;
@@ -92,5 +97,11 @@
     display: flex;
     justify-content: center;
     margin-left: 5px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

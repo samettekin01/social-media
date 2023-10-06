@@ -2,18 +2,27 @@
 import '../style/LMenu.css';
 
 /* Icons */
-import { BsHouse, BsSearch, BsCompass, BsFilm, BsChat, BsHeart, BsFilePlus, BsPersonCircle, BsPersonBadge } from "react-icons/bs";
+import { BsHouse, BsSearch, BsCompass, BsFilm, BsChat, BsHeart, BsFilePlus, BsPersonCircle, BsPersonBadge, BsFillHouseFill } from "react-icons/bs";
 
 /* Other Components */
 import Btn from "./button";
 import MoreMenu from './moremenu';
+import { NavLink } from 'react-router-dom';
 
 function LMenu() {
     return (
         <div className="comp">
             <div className="lmbtn">
-                <div className='social-media-icon-comp'><BsPersonBadge className="sm-i"/><span className='sm-icon'>Social Media</span></div>
-                <Btn><BsHouse className='icons' /><span className='btncont'>Home</span></Btn>
+                <div className='social-media-icon-comp'><BsPersonBadge className="sm-i" /><span className='sm-icon'>Social Media</span></div>
+                <NavLink to="/" className='nav'>
+                    {({ isActive }) => (
+                        <Btn>
+                            {isActive && <BsFillHouseFill className='icons' />}
+                            {!isActive && <BsHouse className='icons' />}
+                            <span className='btncont' style={isActive ? {fontWeight: 'bold'} : {fontWeight: 'normal'}}>Home</span>
+                        </Btn>
+                    )}
+                </NavLink>
                 <Btn><BsSearch className='icons' /><span className='btncont'>Search</span></Btn>
                 <Btn><BsCompass className='icons' /><span className='btncont'>Explore</span></Btn>
                 <Btn><BsFilm className='icons' /><span className='btncont'>Reels</span></Btn>
@@ -23,7 +32,7 @@ function LMenu() {
                 <Btn><BsPersonCircle className='icons' /><span className='btncont'>Profile</span></Btn>
                 <MoreMenu />
             </div>
-        </div>
+        </div >
     )
 }
 

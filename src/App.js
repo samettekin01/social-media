@@ -16,6 +16,7 @@ function App() {
       </div>
       <div className='othercomp'>
         <div className='center'>
+        <div className='main-icon'><span>Social Media</span></div>
           <div className='storycomp'>
             <CeCProvider numUser={10}>
               <StoryUsers />

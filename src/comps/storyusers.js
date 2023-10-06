@@ -14,6 +14,8 @@ function StoryUsers() {
     const comptw = useRef(null);
     const wdval = comptw.current;
     const wdlong = 80 * iuser.length
+    console.log(wdlong)
+    console.log(wdval)
 
     useEffect(() => {
         const compt = document.querySelector(".compt");

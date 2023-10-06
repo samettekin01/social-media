@@ -1,11 +1,20 @@
-import { BsHouse, BsCompass, BsFilm, BsFilePlus, BsChat, BsPersonCircle } from "react-icons/bs";
+import { BsHouse, BsCompass, BsFilm, BsFilePlus, BsChat, BsPersonCircle, BsFillHouseFill } from "react-icons/bs";
 
 import "../style/bottommenu.css"
+import { NavLink } from "react-router-dom";
+import Btn from "./button";
 
-function BottomMenu(){
-    return(
+function BottomMenu() {
+    return (
         <div className="bottommenu-comp">
-            <button className="btn"><BsHouse className="icons"/></button>
+            <NavLink to="/" className="nav">
+                {({ isActive }) => (
+                    <Btn>
+                        {isActive && <BsFillHouseFill className="icons" />}
+                        {!isActive && <BsHouse className="icons"/>}
+                    </Btn>
+                )}
+            </NavLink>
             <button className="btn"><BsCompass className="icons" /></button>
             <button className="btn"><BsFilm className="icons" /></button>
             <button className="btn"><BsFilePlus className="icons" /></button>

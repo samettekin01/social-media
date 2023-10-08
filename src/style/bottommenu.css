@@ -9,7 +9,7 @@
     color: white;
     border-top: var(--borderline);
     display: none;
-    min-width: 480px;
+    min-width: 400px;
 }
 
 @media (max-width: 680px){

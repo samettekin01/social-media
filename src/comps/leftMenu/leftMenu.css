@@ -26,6 +26,7 @@
 
 .social-media-icon-comp {
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .sm-icon {
@@ -97,6 +98,7 @@
     display: flex;
     justify-content: center;
     margin-left: 5px;
+    cursor: pointer;
   }
 
   .nav {

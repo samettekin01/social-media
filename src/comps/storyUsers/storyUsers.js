@@ -1,10 +1,10 @@
 import { useContext, useEffect, useRef, useState } from "react";
-import { CreateC } from "./ccontext";
+import { CreateC } from "../../provider/context";
 
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 
 /* Styles */
-import "../style/story.css"
+import "./storyUsers.css"
 
 function StoryUsers() {
     const iuser = useContext(CreateC)

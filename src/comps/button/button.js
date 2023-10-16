@@ -1,4 +1,4 @@
-import '../style/button.css'
+import './button.css'
 
 function Btn(props){
     return(

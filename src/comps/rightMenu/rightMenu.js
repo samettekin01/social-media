@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { CreateC } from "./ccontext";
+import { CreateC } from "../../provider/context";
 
-import pic from "../style/favicon.png"
+import pic from "../images/favicon.png"
 
-import "../style/rightmenu.css"
+import "./rightMenu.css"
 
 function RightMenu() {
     const data = useContext(CreateC)

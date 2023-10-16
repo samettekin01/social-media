@@ -1,18 +1,18 @@
-import './style/App.css'
+import './App.css'
 
-import LMenu from './comps/leftmenu';
-import { CeCProvider } from './comps/ccontext';
-import StoryUsers from './comps/storyusers';
-import Content from './comps/content';
-import RightMenu from './comps/rightmenu';
-import BottomMenu from './comps/bottommenu';
-import { UserCommentProvider } from './comps/comments';
+import LeftMenu from './comps/leftMenu/leftMenu';
+import { CeCProvider } from './provider/context';
+import StoryUsers from './comps/storyUsers/storyUsers';
+import Content from './comps/content/content';
+import RightMenu from './comps/rightMenu/rightMenu';
+import BottomMenu from './comps/bottomMenu/bottomMenu';
+import { UserCommentProvider } from './provider/comments';
 
 function App() {
   return (
     <div className="App">
       <div className='left'>
-        <LMenu />
+        <LeftMenu />
       </div>
       <div className='othercomp'>
         <div className='center'>

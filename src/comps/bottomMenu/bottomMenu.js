@@ -1,8 +1,8 @@
 import { BsHouse, BsCompass, BsFilm, BsFilePlus, BsChat, BsPersonCircle, BsFillHouseFill } from "react-icons/bs";
 
-import "../style/bottommenu.css"
+import "../bottomMenu/bottomMenu.css"
 import { NavLink } from "react-router-dom";
-import Btn from "./button";
+import Btn from "../button/button";
 
 function BottomMenu() {
     return (

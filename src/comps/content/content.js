@@ -1,12 +1,13 @@
 import { useContext } from "react";
-import { CreateC } from "./ccontext";
+import { CreateC } from "../../provider/context";
 
 import { BsChat, BsSend, BsBookmark } from "react-icons/bs";
 
-import GetUserComments from "./getusercomments";
+import GetUserComments from "../getUserComments/getUserComments";
 
-import "../style/content.css"
-import LikeButton from "./like";
+import LikeButton from "../likeButton/likeButton";
+
+import "./content.css"
 
 function Content() {
     const data = useContext(CreateC)

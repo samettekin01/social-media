@@ -1,15 +1,15 @@
 /* Styles */
-import '../style/LMenu.css';
+import './leftMenu.css';
 
 /* Icons */
 import { BsHouse, BsSearch, BsCompass, BsFilm, BsChat, BsHeart, BsFilePlus, BsPersonCircle, BsPersonBadge, BsFillHouseFill } from "react-icons/bs";
 
 /* Other Components */
-import Btn from "./button";
-import MoreMenu from './moremenu';
+import Btn from "../button/button";
+import MoreMenu from '../utils/moreMenu';
 import { NavLink } from 'react-router-dom';
 
-function LMenu() {
+function LeftMenu() {
     return (
         <div className="comp">
             <div className="lmbtn">
@@ -36,4 +36,4 @@ function LMenu() {
     )
 }
 
-export default LMenu;
+export default LeftMenu;

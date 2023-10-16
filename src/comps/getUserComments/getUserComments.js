@@ -1,8 +1,8 @@
 import { useContext, useState } from "react";
-import { UserCommentContext } from "./comments";
-import LikeButton from "./like";
+import { UserCommentContext } from "../../provider/comments";
+import LikeButton from "../likeButton/likeButton";
 
-import "../style/getusercomments.css"
+import "./getUserComments.css"
 
 function GetUserComments() {
     const data = useContext(UserCommentContext)

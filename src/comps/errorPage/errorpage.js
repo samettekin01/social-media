@@ -1,4 +1,4 @@
-import "../style/errorpage.css"
+import "./errorpage.css"
 function ErrorPage() {
     return (
         <div className="errorpage-comp">

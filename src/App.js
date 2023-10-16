@@ -1,11 +1,11 @@
 import './App.css'
 
-import LeftMenu from './comps/leftMenu/leftMenu';
+import LeftMenu from './components/leftMenu/leftMenu';
 import { CeCProvider } from './provider/context';
-import StoryUsers from './comps/storyUsers/storyUsers';
-import Content from './comps/content/content';
-import RightMenu from './comps/rightMenu/rightMenu';
-import BottomMenu from './comps/bottomMenu/bottomMenu';
+import StoryUsers from './components/storyUsers/storyUsers';
+import Content from './components/content/content';
+import RightMenu from './components/rightMenu/rightMenu';
+import BottomMenu from './components/bottomMenu/bottomMenu';
 import { UserCommentProvider } from './provider/comments';
 
 function App() {

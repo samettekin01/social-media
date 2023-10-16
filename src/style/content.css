@@ -135,6 +135,8 @@
 .comment-comp{
     display: flex;
     margin-top: 7px;
+    min-width: 400px;
+    max-width: 480px;
 }
 
 .com-us{

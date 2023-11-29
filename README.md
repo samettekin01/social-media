@@ -10,8 +10,8 @@ Instagram anasayfasından yapılmıştır.
 - HeadlessUI
 - Bootstrap Icon
 ### API
-https://randomuser.me/
-https://jsonplaceholder.typicode.com/
+- https://randomuser.me/
+- https://jsonplaceholder.typicode.com/
 
 ## Demo and GIF
 

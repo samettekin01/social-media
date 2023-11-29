@@ -9,6 +9,9 @@ Instagram anasayfasından yapılmıştır.
 - CSS
 - HeadlessUI
 - Bootstrap Icon
+### API
+https://randomuser.me/
+https://jsonplaceholder.typicode.com/
 
 ## Demo and GIF
 

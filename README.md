@@ -3,7 +3,7 @@
 
 Instagram anasayfasından yapılmıştır.
 
-##Built with:
+## Built with:
 - React
 - React Context
 - CSS

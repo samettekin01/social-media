@@ -3,6 +3,12 @@
 
 Instagram anasayfasından yapılmıştır.
 
+##Built with:
+- React
+- React Context
+- CSS
+- HeadlessUI
+- Bootstrap Icon
 
 ## Demo and GIF
 

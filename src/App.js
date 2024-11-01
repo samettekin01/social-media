@@ -7,6 +7,7 @@ import Content from './components/content/content';
 import RightMenu from './components/rightMenu/rightMenu';
 import BottomMenu from './components/bottomMenu/bottomMenu';
 import { UserCommentProvider } from './provider/comments';
+import Github from './assets/Github';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         </div>
       </div>
       <BottomMenu />
+      <Github />
     </div>
   );
 }

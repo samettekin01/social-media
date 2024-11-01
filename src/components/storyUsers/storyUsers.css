@@ -1,0 +1,78 @@
+.story-compt{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: var(--bgblack);
+    height: 100px;
+    overflow: hidden;
+}
+
+.s-leftbtn{
+  position: absolute;
+  color: white;
+  left: 1px;
+  font-size: 1.7rem;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.s-rightbtn{
+  position: absolute;
+  color: white;
+  right: 1px;
+  font-size: 1.7rem;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.compt {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(0px);
+    transition: transform 1s;
+}
+
+.usercomp {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    transition: transform .3s;
+    cursor: pointer;
+}
+.usercomp:hover{
+    transform: scale(1.1);
+}
+
+.imgback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--linearg);
+    clip-path: var(--acircle);
+    width: 71px;
+    margin: 0 5px 0 5px ;
+}
+
+.upic {
+    width: 70px;
+    height: 70px;
+    clip-path: var(--bcircle);
+}
+
+.uname {
+    display: flex;
+    justify-content: center;
+}
+
+.username {
+    width: 60px;
+    text-align: center;
+    color: var(--tcolor);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

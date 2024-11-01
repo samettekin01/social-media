@@ -1,38 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: .9rem;
+  background-color: var(--bgblack);
+  font-family: 'Montserrat';
+}
+
+:root {
+  --bgblack: #000;
+  --bggray: rgb(36, 36, 36);
+  --hbgcolor: #202020;
+  --tcolor: #fff;
+  --atcolor: rgb(0, 0, 206);
+  --border-r: 8px;
+  --acircle: circle(50%);
+  --bcircle: circle(46%);
+  --linearg: linear-gradient(75deg, yellow 0%, orange 20%, deeppink 100%);
+  --borderline: 1px solid rgba(77, 77, 77, 0.5);
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-icon {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Lobster Regular';
+  display: none;
+}
+.left {
+  height: 100%
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.othercomp {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.storycomp {
+  display: flex;
+  background-color: var(--bgblack);
+  height: 100px;
+  width: 480px;
+}
+
+.center {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top: 30px;
+}
+
+.right {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 400px;
+  margin-top: 50px;
+  background-color: var(--bgblack);
+  padding-left: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 1080px) {
+  .right {
+    display: none;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 680px) {
+  .left {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .main-icon{
+    display: inline-block;
   }
+}
+
+@media (max-width: 465px) {
+  .storycomp{
+    width: 400px;
+  }
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./components/fonts/Montserrat-VariableFont_wght.ttf");
 }
